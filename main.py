@@ -1,2 +1,1 @@
-for i in ['fax']:
-    print(i * 5)
+print('poopy pants')
