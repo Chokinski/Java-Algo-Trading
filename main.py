@@ -7,4 +7,8 @@ root.geometry('1000x1000')
 button = Button(root, text='CLICK :):)', command= 'HI')
 button.pack()
 
+btnOne = Button(root, text="Click this!", bd='4',
+                command = root.destroy)
+btnOne.pack(side= 'top')
+
 root.mainloop()
