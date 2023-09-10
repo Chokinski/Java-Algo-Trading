@@ -1,6 +1,7 @@
-import tkinter
+from tkinter import *
 
-root = tkinter
+root = Tk()
 
-root.geometry = ('100*100')
+root.geometry = ('1000*1000')
 
+root.mainloop()
