@@ -8,14 +8,18 @@
             "type": "java",
             "name": "Current File",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "ai"
         },
         {
             "type": "java",
             "name": "ai",
             "request": "launch",
             "mainClass": "ai",
-            "projectName": "best-repository-ever-facts-1_625eec18"
+            "projectName": "best-repository-ever-facts-1",
+            "cwd": "${workspaceFolder}",
+            "sourcePaths": [
+                "${workspaceFolder}src"
+            ]
         }
     ]
 }

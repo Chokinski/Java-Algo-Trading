@@ -1,16 +1,16 @@
 <!-- .classpath -->
 <classpath>
-    <classpathentry kind="src" path="src"/>
-    <classpathentry kind="lib" path="lib/slf4j-api-2.0.9.jar"/>
-    <classpathentry kind="lib" path="lib/slf4j-simple-2.0.9.jar"/>
-    <classpathentry kind="lib" path="lib/javafx-swt.jar"/>   
-    <classpathentry kind="lib" path="lib/javafx.base.jar"/>      
-    <classpathentry kind="lib" path="lib/javafx.controls.jar"/>
-    <classpathentry kind="lib" path="lib/javafx.fxml.jar"/>
-    <classpathentry kind="lib" path="lib/javafx.graphics.jar"/>
-    <classpathentry kind="lib" path="lib/javafx.media.jar"/>
-    <classpathentry kind="lib" path="lib/javafx.swing.jar"/>
-    <classpathentry kind="lib" path="lib/javafx.web.jar"/>
+    <classpathentry kind="src" path="ai-root/src">
+    <classpathentry kind="lib" path="ai-root/lib/slf4j-api-2.0.9.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/slf4j-simple-2.0.9.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/javafx-swt.jar"/>   
+    <classpathentry kind="lib" path="ai-root/lib/javafx.base.jar"/>      
+    <classpathentry kind="lib" path="ai-root/lib/javafx.controls.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/javafx.fxml.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/javafx.graphics.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/javafx.media.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/javafx.swing.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/javafx.web.jar"/>
     <!-- Other classpath entries if needed -->
-    <output directory="bin"/>
+    <output directory="ai-root/bin">
 </classpath>
