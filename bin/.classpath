@@ -1,0 +1,8 @@
+<!-- .classpath -->
+<classpath>
+    <classpathentry kind="src" path="src"/>
+    <classpathentry kind="lib" path="lib/slf4j-api-2.0.9.jar"/>
+    <classpathentry kind="lib" path="lib/slf4j-simple-2.0.9.jar"/>
+    <!-- Other classpath entries if needed -->
+    <output directory="bin"/>
+</classpath>
