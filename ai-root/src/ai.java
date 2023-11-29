@@ -1,5 +1,5 @@
 package src;
-import net.jacobpeterson.alpaca.rest.AlpacaAPI;
+import net.jacobpeterson.alpaca.AlpacaAPI;
 
 public class ai {
 
