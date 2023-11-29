@@ -1,0 +1,17 @@
+{
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "ai-root\\lib\\alpaca-java-9.2.0.jar",
+        "ai-root\\lib\\javafx.base.jar",
+        "ai-root\\lib\\javafx.controls.jar",
+        "ai-root\\lib\\javafx.fxml.jar",
+        "ai-root\\lib\\javafx.graphics.jar",
+        "ai-root\\lib\\javafx.media.jar",
+        "ai-root\\lib\\javafx.swing.jar",
+        "ai-root\\lib\\javafx.web.jar",
+        "ai-root\\lib\\javafx-swt.jar",
+        "ai-root\\lib\\slf4j-api-2.0.9.jar",
+        "ai-root\\lib\\slf4j-simple-2.0.9.jar"
+    ]
+}
