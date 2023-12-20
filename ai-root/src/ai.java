@@ -7,9 +7,15 @@ import org.slf4j.LoggerFactory;
 public class ai {
 
     // init logger
-    private static final Logger botLogger = LoggerFactory.getLogger(ai.class);
+    public static final Logger botLogger = LoggerFactory.getLogger(ai.class);
 
     public static void main(String[] args) {
+        
+        AlpacaController.connect();
+        
+
+        // Get acc details
+        botLogger.info("Account Details: {}",AlpacaController.getAccount());
             
             /* log test
             botLogger.info("This is an informational message.");

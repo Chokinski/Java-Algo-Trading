@@ -12,6 +12,7 @@
     <classpathentry kind="lib" path="ai-root/lib/javafx.swing.jar"/>
     <classpathentry kind="lib" path="ai-root/lib/javafx.web.jar"/>
     <classpathentry kind="lib" path="ai-root/lib/alpaca-java-9.2.0.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/okhttp-4.12.0.jar"/>
     <!-- Other classpath entries if needed -->
     <output directory="ai-root/bin">
 </classpath>

@@ -1,37 +1,31 @@
 package src;
-
+import okhttp3.Interceptor;
+import okhttp3.OkHttpClient;
 import net.jacobpeterson.alpaca.AlpacaAPI;
 import net.jacobpeterson.alpaca.model.endpoint.account.Account;
 import net.jacobpeterson.alpaca.rest.AlpacaClientException;
 
-
-
-
 public class AlpacaController {
+    private static AlpacaAPI alpaca;
 
-    public static void main(String[] args) {
-        // This constructor uses the 'alpaca.properties' file on the classpath for configuration
-        AlpacaAPI alpacaAPI = new AlpacaAPI();
+    public static void connect()
+    {
+        AlpacaAPI alpaca = new AlpacaAPI();
+    }
 
+    public static Account getAccount() {
         try {
                 // Get 'Account' information and print it out
-                Account account = alpacaAPI.account().get();
-                System.out.println(account);
+                Account account = alpaca.account().get();
+                return account;
             } 
         catch (AlpacaClientException exception) {
-                exception.printStackTrace();
-}
-
+                ai.botLogger.error("Error getting acc info: " + exception.getMessage());
+                return null;
     }
-
-    public static void getAccount() {
-        AlpacaAPI alpacaAPI = new AlpacaAPI();
-        Account account = AlpacaAPI.account().get();
-
-        
-    }
-
+    
 
 }
 
 
+}
