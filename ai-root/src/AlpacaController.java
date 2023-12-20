@@ -1,15 +1,10 @@
 package src;
 
-import java.util.List;
-import java.lang.Object;
-import net.jacobpeterson.alpaca.rest.AlpacaClientException;
-import net.jacobpeterson.alpaca.rest.endpoint.AlpacaEndpoint;
-import net.jacobpeterson.alpaca.rest.endpoint.assets.AssetsEndpoint;
-import net.jacobpeterson.alpaca.model.endpoint.assets.Asset;
-import net.jacobpeterson.alpaca.rest.endpoint.assets.AssetStatus;
 import net.jacobpeterson.alpaca.AlpacaAPI;
+import net.jacobpeterson.alpaca.model.endpoint.account.Account;
+import net.jacobpeterson.alpaca.rest.AlpacaClientException;
 
-import net.jacobpeterson.alpaca.model.endpoint.assets.enums.AssetStatus;
+
 
 
 public class AlpacaController {
@@ -18,12 +13,25 @@ public class AlpacaController {
         // This constructor uses the 'alpaca.properties' file on the classpath for configuration
         AlpacaAPI alpacaAPI = new AlpacaAPI();
 
-        // Use AlpacaAPI for further operations...
-        List<String> assets = alpacaApi.AssetsEndpoint().getName();
-        System.out.println("Assets: " + assets);
+        try {
+                // Get 'Account' information and print it out
+                Account account = alpacaAPI.account().get();
+                System.out.println(account);
+            } 
+        catch (AlpacaClientException exception) {
+                exception.printStackTrace();
+}
+
     }
 
-    public List<Asset> get(AssetStatus assetStatus){}
+    public static void getAccount() {
+        AlpacaAPI alpacaAPI = new AlpacaAPI();
+        Account account = AlpacaAPI.account().get();
+
+        
+    }
+
+
 }
 
 
