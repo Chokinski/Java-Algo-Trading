@@ -12,6 +12,9 @@
         "ai-root\\lib\\javafx.web.jar",
         "ai-root\\lib\\javafx-swt.jar",
         "ai-root\\lib\\slf4j-api-2.0.9.jar",
-        "ai-root\\lib\\slf4j-simple-2.0.9.jar"
+        "ai-root\\lib\\slf4j-simple-2.0.9.jar",
+        "ai-root\\lib\\okhttp-4.12.0.jar",
+        "ai-root\\lib\\failureaccess-1.0.1.jar",
+        "ai-root\\lib\\guava-33.0.0-jre.jar"
     ]
 }
