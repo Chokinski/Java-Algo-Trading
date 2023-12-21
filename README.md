@@ -15,29 +15,31 @@ bot effectively and safely.
 </p>
 
 <h1 align="center" style="color:#FFC66D;">Java Algorithmic Trading Bot</h1>
-<p align="center" style="color:#A9B7C6;">
+<p align="left" style="color:#A9B7C6;">
 This project is a Java-based algorithmic trading bot with development officially beginning on November 28th, 2023. 
 This bot will be capable of using various strategies and algorithms to make trading decisions. The bot will adhere
 to strict or lenient risk management tools based on the user's implementation.
 </p>
 
 <h2 align="center" style="color:#CC7832;">Developer</h2>
-<p align="center" style="color:#A9B7C6;">Chokinski</p>
+<p align="left" style="color:#A9B7C6;">Chokinski</p>
 
 <h2 align="center" style="color:#CC7832;">Dependencies</h2>
-<p align="center" style="color:#A9B7C6;">
+
+<p align="left" style="color:#A9B7C6;">
 The project uses the following dependencies:
-- Alpaca API: For interacting with the Alpaca trading platform.
+`- Alpaca API: For interacting with the Alpaca trading platform.
 - Okio: A modern I/O library for Android and Java.
 - Gson: A Java library for converting Java Objects into their JSON representation and vice versa.
 - JavaFX: A graphics and media package for creating rich client applications.
-- SLF4J Simple: A simple implementation of SLF4J API used for testing, development, and logging in this project.
+- SLF4J Simple: A simple implementation of SLF4J API used for testing, development, and logging in this project.`
 Please refer to the `.classpath` file for the specific versions of these dependencies.
 </p>
 
 <h2 align="center" style="color:#CC7832;">Setup</h2>
-<p align="center" style="color:#A9B7C6;">
-JRE 17 may be needed. You will also need to modify the `alpaca.properties` file with your Alpaca API credentials.
+<p align="left" style="color:#A9B7C6;">
+JRE 17 may be needed. 
+You will also need to modify the `alpaca.properties` file with your Alpaca API credentials.
 </p>
 
 <h2 align="center" style="color:#CC7832;">Usage</h2>
