@@ -1,5 +1,3 @@
-package src;
-
 import net.jacobpeterson.alpaca.AlpacaAPI;
 import net.jacobpeterson.alpaca.model.endpoint.account.Account;
 import net.jacobpeterson.alpaca.rest.AlpacaClientException;
@@ -7,6 +5,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.Properties;
+
 public class AlpacaController {
     private static AlpacaAPI alpaca;
 
@@ -19,7 +18,7 @@ public class AlpacaController {
     {
         Properties properties = new Properties();
         try {
-            properties.load(new FileInputStream("src\\alpaca.properties"));
+            properties.load(new FileInputStream("ai-root\\alpaca.properties"));
             String keyID = properties.getProperty("key_id");
             String secretKey = properties.getProperty("secret_key");
             alpaca = new AlpacaAPI(keyID,secretKey);
@@ -34,7 +33,7 @@ public class AlpacaController {
 
     public static Account getAccount() {
         try {
-                // Get 'Account' information and print it out
+                // Get 'Account' information
                 Account account = alpaca.account().get();
                 return account;
             } 
@@ -44,6 +43,31 @@ public class AlpacaController {
     }
     
 }
+
+public static void logAccCash() {
+    ai.botLogger.info("Account Cash: {}",AlpacaController.getAccount().getCash());
+    System.out.println("Cash Logged"+"\n\n\n");
+}
+
+public static void logPortValue() {
+    ai.botLogger.info("Portfolio Value: {}",AlpacaController.getAccount().getPortfolioValue());
+    System.out.println("Portfolio Value Logged"+"\n\n\n");
+
+}
+
+public static void logStatus() {
+    ai.botLogger.info("Account Status: {}",AlpacaController.getAccount().getStatus());
+    System.out.println("Account Status Logged"+"\n\n\n");
+
+}
+
+public static void logCreateDate() {
+    ai.botLogger.info("Date Created: {}",AlpacaController.getAccount().getCreatedAt());
+    System.out.println("Date Created"+"\n\n\n");
+
+}
+
+
 
 
 }

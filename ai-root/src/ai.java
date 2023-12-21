@@ -1,4 +1,3 @@
-package src;
 /*import net.jacobpeterson.alpaca.AlpacaAPI;
 import javafx.*;*/
 import org.slf4j.Logger;
@@ -15,11 +14,14 @@ public class ai {
         
         AlpacaController.connect();
         
-
         // Get acc details
-        botLogger.info("Account Details: {}",AlpacaController.getAccount());
-            
-            /* log test
+        AlpacaController.logAccCash();
+
+        AlpacaController.logCreateDate();
+        AlpacaController.logPortValue();    
+        AlpacaController.logStatus();
+        
+        /* log test
             botLogger.info("This is an informational message.");
             botLogger.warn("This is a warning message.");
             botLogger.error("This is an error message.");*/

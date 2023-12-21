@@ -15,7 +15,15 @@
         "ai-root\\lib\\slf4j-simple-2.0.9.jar",
         "ai-root\\lib\\okhttp-4.12.0.jar",
         "ai-root\\lib\\failureaccess-1.0.1.jar",
-        "ai-root\\lib\\guava-33.0.0-jre.jar"
+        "ai-root\\lib\\guava-33.0.0-jre.jar",
+        "ai-root\\lib\\kotlin-stdlib-2.0.0-Beta2.jar",
+        "ai-root\\lib\\okio-3.7.0.jar",
+        "ai-root\\lib\\okio-3.6.0.jar",
+        "ai-root\\lib\\kotlin-stdlib-jdk8-1.8.21.jar",
+        "ai-root\\lib\\okio-jvm-3.6.0.jar",
+        "ai-root\\lib\\logging-interceptor-4.12.0.jar",
+        "ai-root\\lib\\slf4j-okhttp3-logging-interceptor-1.0.1.jar",
+        "ai-root\\lib\\gson-2.10.1.jar"
     ],
     "java.project.sourcePaths": [
         "ai-root\\src"

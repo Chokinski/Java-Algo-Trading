@@ -15,6 +15,12 @@
     <classpathentry kind="lib" path="ai-root/lib/okhttp-4.12.0.jar"/>
     <classpathentry kind="lib" path="ai-root/lib/failureaccess-1.01.jar"/>
     <classpathentry kind="lib" path="ai-root/lib/guava-33.0.0-jre.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/kotlin-stdlib-jdk8-1.8.21.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/kotlin-stdlib-2.0.0-Beta2.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/okio-3.6.0.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/okio-jvm-3.6.0.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/slf4j-okhttp3-logging-interceptor-1.0.1.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/gson-2.10.1.jar"/>
     <!-- Other classpath entries if needed -->
     <output directory="ai-root/bin">
 </classpath>
