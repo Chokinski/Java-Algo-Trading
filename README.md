@@ -1,5 +1,3 @@
-#### best-repository-ever-facts
-#### This is my first project repository.
 ### Created 16/08/2023
 
 # DISCLAIMER
