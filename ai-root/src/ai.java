@@ -16,9 +16,8 @@ public class ai {
         
         // Get acc details
         AlpacaController.logAccCash();
-
         AlpacaController.logCreateDate();
-        AlpacaController.logPortValue();    
+        AlpacaController.logPortValue();
         AlpacaController.logStatus();
         
         /* log test
