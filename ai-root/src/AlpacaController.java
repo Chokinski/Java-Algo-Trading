@@ -26,6 +26,7 @@ import net.jacobpeterson.alpaca.model.endpoint.marketdata.stock.historical.trade
 
 public class AlpacaController {
     private static AlpacaAPI alpaca;
+    private static AlpacaStreamListener alpacaStreamListener;
 
     /**
      * Connects to the Alpaca API using the properties specified in the
@@ -34,19 +35,21 @@ public class AlpacaController {
      * If an IO exception occurs while loading the properties, an IOException is
      * thrown.
      */
-    public static void connect() {
+    public static AlpacaAPI connect() {
         Properties properties = new Properties();
         try {
             properties.load(new FileInputStream("ai-root\\alpaca.properties"));
             String keyID = properties.getProperty("key_id");
             String secretKey = properties.getProperty("secret_key");
             alpaca = new AlpacaAPI(keyID, secretKey);
+            return alpaca;
 
         } catch (FileNotFoundException exception) {
             ai.botLogger.error("Erorr, File/Path Not Found:" + exception.getMessage());
         } catch (IOException exception) {
             ai.botLogger.error("Erorr, IO Exception:" + exception.getMessage());
         }
+        return null;
 
     }
 
@@ -85,7 +88,7 @@ public class AlpacaController {
 
     }
 
-    public static Order PlaceTrade() {
+    public static Order placeTrade() {
         try {
             Order newOrder = alpaca.orders().requestMarketOrder(null, null, OrderSide.BUY, null);
             return newOrder;
@@ -93,7 +96,6 @@ public class AlpacaController {
             ai.botLogger.error("Error placing order: " + exception.getMessage());
         }
         return null;
-
     }
 
     public static void getAssets() {
@@ -130,10 +132,16 @@ public class AlpacaController {
             });
 
 
-
-
         } catch (AlpacaClientException exception) {
             exception.printStackTrace();
         }
+    }
+
+    public static void startListeningForTSLATrades() {
+        AlpacaAPI API = AlpacaController.connect();
+        alpacaStreamListener = new AlpacaStreamListener(API);
+        alpacaStreamListener.connectAlpacaAPI();
+        
+        
     }
 }

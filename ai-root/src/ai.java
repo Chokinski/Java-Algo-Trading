@@ -15,13 +15,14 @@ public class ai {
         AlpacaController.connect();
         
         // Get acc details
-        AlpacaController.logRecentData("AAPL");
+        AlpacaController.startListeningForTSLATrades();
+        /*AlpacaController.logRecentData("AMD");
 
-        /*AlpacaController.logAccCash();
+        AlpacaController.logAccCash();
         AlpacaController.logCreateDate();
         AlpacaController.logPortValue();
         AlpacaController.logStatus();
-        AlpacaController.PlaceTrade();
+        AlpacaController.placeTrade();
         /* log test
             botLogger.info("This is an informational message.");
             botLogger.warn("This is a warning message.");
