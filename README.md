@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="Logo" width="408" height="263">
+  <img src="MAINLOGO.jfif" alt="Logo" width="540" height="540">
 </p>
 
 <h1 align="center" style="color:#FFC66D;">Java Algorithmic Trading Bot</h1>
@@ -36,4 +36,7 @@ You will also need to modify the `alpaca.properties` file with your Alpaca API c
 </p>
 
 <h2 align="center" style="color:#CC7832;">Usage</h2>
+<p align="center">
+  <img src="logo.png" alt="Logo" width="408" height="263">
+</p>
 <p align="center" style="color:#A9B7C6;">[to be completed]</p>
