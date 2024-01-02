@@ -1,16 +1,11 @@
-{
+{   "java.project.sourcePaths": [
+        "ai-root\\src"
+    ],"java.dependency.packagePresentation": "hierarchical",
+    "java.jdt.ls.java.home": "C:\\Program Files\\Eclipse Adoptium\\jdk-17.0.9.9-hotspot",
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "ai-root\\lib\\alpaca-java-9.2.0.jar",
-        "ai-root\\lib\\javafx.base.jar",
-        "ai-root\\lib\\javafx.controls.jar",
-        "ai-root\\lib\\javafx.fxml.jar",
-        "ai-root\\lib\\javafx.graphics.jar",
-        "ai-root\\lib\\javafx.media.jar",
-        "ai-root\\lib\\javafx.swing.jar",
-        "ai-root\\lib\\javafx.web.jar",
-        "ai-root\\lib\\javafx-swt.jar",
         "ai-root\\lib\\slf4j-api-2.0.9.jar",
         "ai-root\\lib\\slf4j-simple-2.0.9.jar",
         "ai-root\\lib\\okhttp-4.12.0.jar",
@@ -23,9 +18,14 @@
         "ai-root\\lib\\okio-jvm-3.6.0.jar",
         "ai-root\\lib\\logging-interceptor-4.12.0.jar",
         "ai-root\\lib\\slf4j-okhttp3-logging-interceptor-1.0.1.jar",
-        "ai-root\\lib\\gson-2.10.1.jar"
-    ],
-    "java.project.sourcePaths": [
-        "ai-root\\src"
+        "ai-root\\lib\\gson-2.10.1.jar",
+        "ai-root\\lib\\javafx-sdk-21.0.1\\lib\\javafx.base.jar",
+        "ai-root\\lib\\javafx-sdk-21.0.1\\lib\\javafx.controls.jar",
+        "ai-root\\lib\\javafx-sdk-21.0.1\\lib\\javafx.fxml.jar",
+        "ai-root\\lib\\javafx-sdk-21.0.1\\lib\\javafx.graphics.jar",
+        "ai-root\\lib\\javafx-sdk-21.0.1\\lib\\javafx.media.jar",
+        "ai-root\\lib\\javafx-sdk-21.0.1\\lib\\javafx.swing.jar",
+        "ai-root\\lib\\javafx-sdk-21.0.1\\lib\\javafx.web.jar",
+        "ai-root\\lib\\javafx-sdk-21.0.1\\lib\\javafx-swt.jar"
     ]
 }
