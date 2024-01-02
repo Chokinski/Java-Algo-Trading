@@ -2,8 +2,12 @@
   <img src="logo.png" alt="Logo" width="408" height="263">
 </p>
 
-<h3 align="center" style="color:#FFC66D;">Created 16/08/2023</h3>
-
+<h1 align="center" style="color:#FFC66D;">Java Algorithmic Trading Bot</h1>
+<p align="left" style="color:#A9B7C6;">
+This project is a Java-based algorithmic trading bot with development officially beginning on November 28th, 2023. 
+This bot will be capable of using various strategies and algorithms to make trading decisions. The bot will adhere
+to strict or lenient risk management tools based on the user's implementation.
+</p>
 <h1 align="center" style="color:#CC7832;">DISCLAIMER</h1>
 <p align="center" style="color:#A9B7C6;">
 Please be aware that the use of our Java Algorithmic Trading Bot is at your own discretion and risk.
@@ -13,17 +17,6 @@ involved with algorithmic trading and use this bot responsibly. If you aren't kn
 we advise you seek help from an accredited financial adviser prior so you understand how to use our
 bot effectively and safely.
 </p>
-
-<h1 align="center" style="color:#FFC66D;">Java Algorithmic Trading Bot</h1>
-<p align="left" style="color:#A9B7C6;">
-This project is a Java-based algorithmic trading bot with development officially beginning on November 28th, 2023. 
-This bot will be capable of using various strategies and algorithms to make trading decisions. The bot will adhere
-to strict or lenient risk management tools based on the user's implementation.
-</p>
-
-<h2 align="center" style="color:#CC7832;">Developer</h2>
-<p align="left" style="color:#A9B7C6;">Chokinski</p>
-
 <h2 align="center" style="color:#CC7832;">Dependencies</h2>
 
 <p align="left" style="color:#A9B7C6;">
@@ -38,7 +31,7 @@ Please refer to the `.classpath` file for the specific versions of these depende
 
 <h2 align="center" style="color:#CC7832;">Setup</h2>
 <p align="left" style="color:#A9B7C6;">
-JRE 17 may be needed. 
+JRE 21 may be needed. 
 You will also need to modify the `alpaca.properties` file with your Alpaca API credentials.
 </p>
 
