@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="Logo" width="80" height="80">
+  <img src="logo.png" alt="Logo" width="408" height="263">
 </p>
 
 <h3 align="center" style="color:#FFC66D;">Created 16/08/2023</h3>
