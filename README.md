@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="maaain.svg" alt="Logo" width="540" height="540">
+  <img src="maaain.png" alt="Logo" width="540" height="540">
 </p>
 
 <h1 align="center" style="color:#FFC66D;">Java Algorithmic Trading Bot</h1>
