@@ -37,15 +37,13 @@ public class JATbot extends Application {
             }
         }
 
-        /*
-         * log test
-         * AlpacaController.logRecentData("AMD");
-         * AlpacaController.logAccCash();
-         * AlpacaController.logCreateDate();
-         * AlpacaController.logPortValue();
-         * AlpacaController.logStatus();
-         * AlpacaController.placeTrade();
-         * botLogger.info("This is an informational message.");
+        
+          /*AlpacaController.logAccCash();
+          AlpacaController.logCreateDate();
+          AlpacaController.logPortValue();
+          AlpacaController.logStatus();
+          AlpacaController.placeTrade();
+         /* botLogger.info("This is an informational message.");
          * botLogger.warn("This is a warning message.");
          * botLogger.error("This is an error message.");
          */

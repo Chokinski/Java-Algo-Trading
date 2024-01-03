@@ -13,6 +13,7 @@
     <classpathentry kind="lib" path="ai-root/lib/okio-jvm-3.6.0.jar"/>
     <classpathentry kind="lib" path="ai-root/lib/slf4j-okhttp3-logging-interceptor-1.0.1.jar"/>
     <classpathentry kind="lib" path="ai-root/lib/gson-2.10.1.jar"/>
+    <classpathentry kind="lib" path="ai-root/lib/javafx-sdk-21.0.1/lib"/>
     <!-- Other classpath entries if needed -->
     <output directory="ai-root/bin">
 </classpath>

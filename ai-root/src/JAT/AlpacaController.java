@@ -39,7 +39,7 @@ public class AlpacaController {
     public static AlpacaAPI connect() {
         Properties properties = new Properties();
         try {
-            properties.load(new FileInputStream("ai-root\\alpaca.properties"));
+            properties.load(new FileInputStream("alpaca.properties"));
             String keyID = properties.getProperty("key_id");
             String secretKey = properties.getProperty("secret_key");
             alpaca = new AlpacaAPI(keyID, secretKey);
@@ -102,7 +102,7 @@ public class AlpacaController {
     public static void getAssets() {
 
         try {
-            List<Asset> assets = alpaca.assets().get(AssetStatus.ACTIVE, AssetClass.CRYPTO);
+            List<Asset> assets = alpaca.assets().get(AssetStatus.ACTIVE, AssetClass.US_EQUITY);
             JATbot.botLogger.info("Assets: {}", assets);
         } catch (AlpacaClientException exception) {
             JATbot.botLogger.error("Error getting assets: " + exception.getMessage());
