@@ -34,5 +34,7 @@
             <Font name="Yu Gothic UI Light" size="14.0" />
          </font>
       </Button>
+  <AnchorPane layoutX="237.0" layoutY="66.0" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+      <Button fx:id="btnLightMode" layoutX="185.0" layoutY="74.0" mnemonicParsing="false" onAction="#btnLightSwitch" text="Dark" />
    </children>
 </AnchorPane>
